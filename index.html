@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unna Jaldon | CS3 Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  * {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    background: linear-gradient(180deg, #120026 0%, #230046 50%, #2e006b 100%);
+    color: #e9d6ff;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+
+  .stars {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, white 1px, transparent 1px);
+    background-size: 3px 3px;
+    animation: drift 800s linear infinite;
+    opacity: 0.1;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  @keyframes drift {
+    from { background-position: 0 0; }
+    to { background-position: 5000px 3000px; }
+  }
+
+  .shooting-star {
+    position: fixed;
+    width: 3px;
+    height: 80px;
+    background: linear-gradient(180deg, white, transparent);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    transform: rotate(45deg);
+    pointer-events: none;
+    z-index: 1;
+    animation: shoot 2s linear infinite;
+  }
+
+  @keyframes shoot {
+    0% { transform: translate(-200px, -200px) rotate(45deg); opacity: 0; }
+    10% { opacity: 1; }
+    100% { transform: translate(1600px, 800px) rotate(45deg); opacity: 0; }
+  }
+
+  header {
+    text-align: center;
+    padding: 80px 20px 60px;
+    position: relative;
+    z-index: 5;
+  }
+
+  header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3em;
+    color: #e3b8ff;
+    text-shadow: 0 0 15px #d49eff, 0 0 25px #9d60ff;
+    animation: glowPulse 2s ease-in-out infinite alternate;
+  }
+
+  header p {
+    color: #caa9ff;
+    font-size: 1.1em;
+    margin-top: 8px;
+    letter-spacing: 1px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(157, 96, 255, 0.2);
+    padding: 15px;
+    border-top: 1px solid #b57aff;
+    border-bottom: 1px solid #b57aff;
+    backdrop-filter: blur(6px);
+    position: sticky;
+    top: 0;
+    z-index: 6;
+  }
+
+  nav a {
+    color: #e9d6ff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 25px;
+    transition: 0.3s;
+    position: relative;
+  }
+
+  nav a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: #b57aff;
+    transition: width 0.3s ease;
+    margin: auto;
+  }
+
+  nav a:hover::after {
+    width: 100%;
+  }
+
+  .sparkle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 0;
+    animation: sparkleFade 0.6s linear forwards;
+  }
+
+  @keyframes sparkleFade {
+    from { opacity: 1; transform: scale(1); }
+    to { opacity: 0; transform: scale(0); }
+  }
+
+  .content-section {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(170, 80, 255, 0.3);
+    margin: 60px auto;
+    padding: 50px 50px 60px;
+    width: 75%;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, opacity 1s ease;
+    opacity: 0;
+    transform: translateY(50px);
+    position: relative;
+    z-index: 5;
+  }
+
+  .content-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .content-section:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 30px rgba(206, 145, 255, 0.6);
+  }
+
+  .content-section h2 {
+    font-family: 'Cinzel', serif;
+    color: #f4e2ff;
+    text-shadow: 0 0 10px #a564ff;
+    margin-bottom: 35px;
+    font-size: 1.8em;
+  }
+
+  .content-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .content-section li {
+    margin: 18px 0;
+  }
+
+  .content-section a {
+    text-decoration: none;
+    color: #e1baff;
+    font-weight: bold;
+    border: 2px solid #b57aff;
+    border-radius: 15px;
+    padding: 12px 25px;
+    transition: 0.3s;
+    background: rgba(180, 130, 255, 0.1);
+    display: inline-block;
+    position: relative;
+  }
+
+  .content-section a:hover {
+    background-color: #b57aff;
+    color: white;
+    text-shadow: 0 0 10px white;
+  }
+
+  footer {
+    text-align: center;
+    color: #caa9ff;
+    padding: 50px 0 40px;
+    font-size: 14px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 70px;
+    position: relative;
+    z-index: 5;
+  }
+
+  @keyframes glowPulse {
+    from { text-shadow: 0 0 10px #b57aff, 0 0 20px #8a2be2; }
+    to { text-shadow: 0 0 25px #d2a8ff, 0 0 45px #b57aff; }
+  }
+
+  .orb {
+    position: fixed;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #b57aff 0%, transparent 70%);
+    opacity: 0.25;
+    filter: blur(25px);
+    animation: floatOrb 20s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .orb:nth-child(2) { width: 200px; height: 200px; top: 20%; left: 10%; animation-delay: 0s; }
+  .orb:nth-child(3) { width: 300px; height: 300px; top: 60%; left: 70%; animation-delay: 5s; }
+  .orb:nth-child(4) { width: 250px; height: 250px; top: 40%; left: 40%; animation-delay: 10s; }
+
+  @keyframes floatOrb {
+    0%, 100% { transform: translateY(0) scale(1); opacity: 0.3; }
+    50% { transform: translateY(-30px) scale(1.1); opacity: 0.5; }
+  }
+
+</style>
+</head>
+
+<body>
+  <div class="stars"></div>
+  <div class="shooting-star"></div>
+  <div class="orb"></div>
+  <div class="orb"></div>
+  <div class="orb"></div>
+
+  <header>
+    <h1>Unna Jaldon</h1>
+    <p>✨ Rubidium 9 | CS3 Portfolio ✨</p>
+  </header>
+
+  <nav>
+    <a href="#graded">Graded</a>
+    <a href="#nongraded">Non-Graded</a>
+    <a href="#bonus">Bonus</a>
+    <a href="#practice">Practices</a>
+  </nav>
+
+  <section id="graded" class="content-section">
+    <h2>Graded Exercises</h2>
+    <ul>
+      <li><a href="public/2Q1GRubidiumJaldon.html">1st Graded Exercise</a></li>
+      <li><a href="public/2Q2GRubidiumJaldon.html">2nd Graded Exercise</a></li>
+    </ul>
+  </section>
+
+  <section id="nongraded" class="content-section">
+    <h2>Non-Graded Exercises</h2>
+    <ul>
+      <li><a href="public/Q21NGRubidiumJaldon.html">Q2 Non-Graded Exercise</a></li>
+    </ul>
+  </section>
+
+  <section id="bonus" class="content-section">
+    <h2>Bonus Work</h2>
+    <ul>
+      <li><a href="#">Coming soon 💜</a></li>
+    </ul>
+  </section>
+
+  <section id="practice" class="content-section">
+    <h2>Practice Exercises</h2>
+    <ul>
+      <li><a href="#">Practice #1</a></li>
+      <li><a href="#">Practice #2</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Made with CSS ✨ by Unna Jaldon | 2025</p>
+  </footer>
+
+  <script>
+    // reveal-on-scroll effect
+    const sections = document.querySelectorAll('.content-section');
+    const reveal = () => {
+      sections.forEach(sec => {
+        const top = sec.getBoundingClientRect().top;
+        if (top < window.innerHeight - 100) sec.classList.add('visible');
+      });
+    };
+    window.addEventListener('scroll', reveal);
+    reveal();
+
+    // sparkle trail on hover
+    document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('mousemove', e => {
+        const sparkle = document.createElement('span');
+        sparkle.classList.add('sparkle');
+        sparkle.style.left = e.offsetX + 'px';
+        sparkle.style.top = e.offsetY + 'px';
+        link.appendChild(sparkle);
+        setTimeout(() => sparkle.remove(), 600);
+      });
+    });
+  </script>
+</body>
+</html>
