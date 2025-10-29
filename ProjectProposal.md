@@ -12,7 +12,7 @@ By: Unna Lael Jaldon and Alpha Celestine Jimenez of 9 - Rubidium
 
 ### **1. Logo**
 
-![Subject To Love Logo](https://cdn.discordapp.com/attachments/1155783555822141502/1432977222007914527/Pink_Cream_Sweet_Cute_Illustrative_Cupcake_Brand_Logo_1200_x_1000_px_1200_x_500_px.png?ex=69030389&is=6901b209&hm=0ece857febee3344bd0f35b1a4485019e12405c70041ac01989ebf122195c8c8)
+![Subject To Love Logo](https://media.discordapp.net/attachments/1155783555822141502/1432979830168883270/8SCpl2AAAABklEQVQDAG2tm95dUCaBAAAAAElFTkSuQmCC.png?ex=690305f6&is=6901b476&hm=735e608c2fd7c02f8992672adba7c20262ec57947620797beb9e3d69fa535be2&=&format=webp&quality=lossless&width=510&height=429)
 
 ---
 
