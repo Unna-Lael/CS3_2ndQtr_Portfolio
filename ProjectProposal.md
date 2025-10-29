@@ -1,7 +1,7 @@
 ## **PROJECT PROPOSAL**
 By: Unna Lael Jaldon and Alpha Celestine Jimenez of 9 - Rubidium
 
- [Subject To Love logo]([https://media.discordapp.net/attachments/1279016178316083271/1432669328792092783/image.png?ex=6901e4c9&is=69009349&hm=99cd6dc1b41f8db9ab7884b448b18365c37ec7b6e1ca6ea5f9983815774f638a&=&format=webp&quality=lossless&width=929&height=780](https://media.discordapp.net/attachments/1155783555822141502/1432977222007914527/Pink_Cream_Sweet_Cute_Illustrative_Cupcake_Brand_Logo_1200_x_1000_px_1200_x_500_px.png?ex=69030389&is=6901b209&hm=0ece857febee3344bd0f35b1a4485019e12405c70041ac01989ebf122195c8c8&=&format=webp&quality=lossless&width=1350&height=563))
+ ![Subject To Love logo]([https://media.discordapp.net/attachments/1279016178316083271/1432669328792092783/image.png?ex=6901e4c9&is=69009349&hm=99cd6dc1b41f8db9ab7884b448b18365c37ec7b6e1ca6ea5f9983815774f638a&=&format=webp&quality=lossless&width=929&height=780](https://media.discordapp.net/attachments/1155783555822141502/1432977222007914527/Pink_Cream_Sweet_Cute_Illustrative_Cupcake_Brand_Logo_1200_x_1000_px_1200_x_500_px.png?ex=69030389&is=6901b209&hm=0ece857febee3344bd0f35b1a4485019e12405c70041ac01989ebf122195c8c8&=&format=webp&quality=lossless&width=1350&height=563))
 
    ### **Subject To Love**
 **Why choose between GWA and JOWA when you can have both?**
