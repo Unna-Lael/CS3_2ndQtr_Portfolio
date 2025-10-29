@@ -18,49 +18,51 @@ By: Unna Lael Jaldon and Alpha Celestine Jimenez of 9 - Rubidium
 
 ### **2. Description**
 > Welcome to ***Subject To Love***, the ultimate school dating simulator!  
-> This match-making game aims to find you the perfect subject that shall be your partner for the rest of the year ;).  
+> This match-making visual-novel style game aims to find you the perfect subject that shall be your partner for the rest of the year ;).
 > With a loving and caring subject by your side, you'll be able to flourish in school and have fun with learning!  
 > So, what are you waiting for?  
-> Start with meeting the different subjects: **Biology, Chemistry, Physics, Math, English, Filipino, Social Science, Computer Science,** and **Statistics**.   Interact with them. You'll find out more about them and eventually, you'll learn who you're most compatible with!
-> Is it the ever soft-spoken **English**, who will shower you with compliments,  or the daring intellectual **Math**, who's willing to help you every step of the way?  
-> Play now, and enjoy your school year! >:3
+> Start with meeting the different subjects: **Biology, Chemistry, Physics, Math, English, Filipino, Social Science, Computer Science,** and **Statistics**.   Interact with them. You'll find out more about them and eventually, you'll learn who you're most compatible with! Is it the ever soft-spoken **English**, who will shower you with compliments,  or the daring intellectual **Math**, who's willing to help you every step of the way?  
+> Play now, and enjoy your school year love story! >:3
 
 ---
 
 ### **3. Outline Of Webpages**
 #### ***Home Page***
 - Introduction to the player  
-- About the creators  
-- Two links:  
-  - `Start` (Actual Game page)  
-  - `Help` (About the Game page)  
+- Images of subject characters to hook the player
+- Four links:  
+  - `About the Game` (About the Game page)  
+  - `PLAY!` (Actual Game page)
+  - `Notebook` (Notebook page)
+  - `Gallery` (Gallery page) 
 - Background music toggle  
 
 ---
 
-#### ***About the Game page*** `(Help)`
+#### ***About the Game page*** `(About the Game)`
 - History of Game  
 - Game guide (FOR BEGINNERS)  
 - Secret tip to get best ending `(gdoc link)`
 
 ---
 
-#### ***Actual Game page*** `(Start)`
+#### ***Actual Game page*** `(PLAY!)`
 - Text box for dialogue  
 - Background art  
 - Character sprites  
 - Interactive buttons  
-- `Next` button
 
 ---
 
-##### ***Notebook*** 
+#### *(in `nav` bar)*
+
+##### ***Notebook*** `(Notebook)`
 - Character sprites  
-- Short bios  
+- Short bios  (likes + dislikes)
 - Their favorite quote  
 
-##### ***Gallery*** 
-- Small trivia!!  
+##### ***Gallery*** `(Gallery)`
+- Small trivia
 - Ending art  
 - Behind the scenes photos  
 
