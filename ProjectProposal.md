@@ -10,7 +10,7 @@ By: Unna Lael Jaldon and Alpha Celestine Jimenez of 9 - Rubidium
 
 ---
 
-### **1. Logo**
+### **1. Logo/Favicon**
 
 ![Subject To Love Logo](https://media.discordapp.net/attachments/1155783555822141502/1432979830168883270/8SCpl2AAAABklEQVQDAG2tm95dUCaBAAAAAElFTkSuQmCC.png?ex=690305f6&is=6901b476&hm=735e608c2fd7c02f8992672adba7c20262ec57947620797beb9e3d69fa535be2&=&format=webp&quality=lossless&width=510&height=429)
 
